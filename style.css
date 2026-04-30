@@ -1,4 +1,3 @@
-/* Modern dark theme */
 body {
   background: #111;
   color: #eee;
@@ -23,7 +22,6 @@ body {
   margin: 0 auto;
 }
 
-/* Project buttons */
 .project-button {
   background: #222;
   border: 1px solid #333;
@@ -39,7 +37,6 @@ body {
   justify-content: center;
 }
 
-/* Project image (default state) */
 .project-img {
   width: 100%;
   height: 140px;
@@ -48,7 +45,6 @@ body {
   transition: opacity 0.25s ease;
 }
 
-/* Title always visible */
 .project-title {
   display: block;
   margin-top: 10px;
@@ -56,7 +52,6 @@ body {
   font-weight: 500;
 }
 
-/* Description hidden until hover */
 .project-desc {
   display: block;
   opacity: 0;
@@ -66,7 +61,6 @@ body {
   transition: opacity 0.25s ease;
 }
 
-/* Hover effect */
 .project-button:hover {
   background: #444;
   border-color: #555;
